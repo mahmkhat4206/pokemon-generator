@@ -1,0 +1,75 @@
+.App {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  flex-direction: column;
+
+}
+body {
+  margin: 0%;
+  padding: 0%;
+  background-image: url(./every-legendary-pokemon-dhu4bu0wdmjcofda.jpg);
+  background-repeat: no-repeat;
+}
+.title {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.title input {
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #4caBee;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.title button {
+  width: 300px;
+  height: 60px;
+  margin: 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  padding-left: 10px;
+  border: none;
+  color: white;
+  background-color: #006cbf;
+}
+.title button:hover {
+  cursor: pointer;
+}
+
+.Display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Display h4, h3 {
+  margin: 5px;
+}
+
+.Display img {
+  width: 200px;
+}
+h1{
+  color: white;
+  text-align: center;
+}
+
+h2{
+  color: black;
+}
+
+@media (min-width: 640px){
+  .title {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
